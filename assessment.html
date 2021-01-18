@@ -3,6 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- OGP の設定 -->
+    <meta name="twitter:card" content="summary">
+    <meta property="og:url" content="https://mola1129.github.io/assessment/assessment.html">
+    <meta property="og:title" content="あなたのいいところ診断">
+    <meta property="og:description" content="説明文です.">
     <title>あなたのいいところ診断</title>
     <link rel="stylesheet" href="assessment.css">
 </head>
@@ -15,7 +20,7 @@
     <!-- ※ size, maxlengthはtypeによっては使用できない -->
     <input type="text" id="user-name" size="40" maxlength="20" />
     <button id="assessment">診断する</button>
-    <!-- JavaScriptやCSSから参照する場所はdivで用意  -->
+    <!-- JavaScriptやCSSから参照する場所はdivで用意 -->
     <div id="result-area"></div>
     <div id="tweet-area"></div>
     <script src="assessment.js"></script>
